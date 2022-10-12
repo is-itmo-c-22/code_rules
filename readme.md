@@ -347,11 +347,11 @@ void someFunction() {
 
 **Хорошо:**
 ```
-const uint8_t ASKII_SYMBOL_CODE_UPPER_A = 65;
-const uint8_t ASKII_SYMBOL_CODE_UPPER_Z = 90;
+const uint8_t ASCII_SYMBOL_CODE_UPPER_A = 65;
+const uint8_t ASCII_SYMBOL_CODE_UPPER_Z = 90;
     
 void someFunction() {
-    for (uint8_t i = ASKII_SYMBOL_CODE_UPPER_A; i <= ASKII_SYMBOL_CODE_UPPER_Z; i++) {
+    for (uint8_t i = ASCII_SYMBOL_CODE_UPPER_A; i <= ASCII_SYMBOL_CODE_UPPER_Z; i++) {
         std::cout << static_cast<char>(i) << " ";   
     }
     std::cout << std::endl;
