@@ -361,26 +361,6 @@ void someFunction() {
 
 ### 19) Именование констант
 
-Константы именуются в MACRO_CASE, не забывает добавлять ключевое слово `const`. Рекомендую этот вариант
-
-**Плохо:**
-```
-int64_t zero = 0;
-
-int64_5 addZero(int64_t number) {
-    return number + zero;
-}
-```
-
-**Хорошо:**
-```
-const int64_t ZERO = 0;
-
-int64_5 addZero(int64_t number) {
-    return number + ZERO;
-}
-```
-
 **Google C++ Style Guide версия**
 
 Имена констант начинаются с буквы `k`. `Далее PascalCase` - ЭтоКогдаПишемВотТак
