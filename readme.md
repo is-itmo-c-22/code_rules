@@ -367,7 +367,7 @@ void someFunction() {
 ```
 int64_t zero = 0;
 
-int64_t addZero(int64_t number) {
+int64_5 addZero(int64_t number) {
     return number + zero;
 }
 ```
@@ -376,7 +376,7 @@ int64_t addZero(int64_t number) {
 ```
 const int64_t ZERO = 0;
 
-int64_t addZero(int64_t number) {
+int64_5 addZero(int64_t number) {
     return number + ZERO;
 }
 ```
@@ -389,7 +389,7 @@ int64_t addZero(int64_t number) {
 ```
 int64_t zeroNumber = 0;
 
-int64_t addZero(int64_t number) {
+int64_5 addZero(int64_t number) {
     return number + zeroNumber;
 }
 ```
@@ -398,7 +398,8 @@ int64_t addZero(int64_t number) {
 ```
 const int64_t kZeroNumber = 0;
 
-int64_t addZero(int64_t number) {
+int64_5 addZero(int64_t number) {
     return number + kZeroNumber;
 }
 ```
+
